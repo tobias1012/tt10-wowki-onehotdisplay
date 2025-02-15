@@ -9,12 +9,11 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
-
+The project uses a simple circuit to ensure the input is one hot coded, then it uses combinatorial logic to display the number from the input (0-8) on a seven segment display.
 ## How to test
 
-Explain how to use your project
+send a input through the pins and observe the 7 segment display
 
 ## External hardware
-
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+- 8 switch DIP switches for input
+- 7 segment display
